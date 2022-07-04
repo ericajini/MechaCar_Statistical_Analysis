@@ -38,7 +38,6 @@ t.test(Sus_Coil$PSI, mu=1500)
 
 # Lot 1
 t.test(subset(Sus_Coil,Manufacturing_Lot=="Lot1")$PSI,mu = 1500)
-
 # Lot 2
 t.test(subset(Sus_Coil,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
 # Lot 3
